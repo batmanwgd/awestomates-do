@@ -1,9 +1,10 @@
 ## directories
-awestomates-do/bin/
+bin/
 node_modules/
 jspm_packages/
 
 ## logs
+.DS_Store
 logs
 *.log
 npm-debug.log*
