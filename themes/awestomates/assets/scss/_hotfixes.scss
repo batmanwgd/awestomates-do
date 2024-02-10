@@ -1,0 +1,23 @@
+/*
+*	Awestomates - An awesome place for new ostomates
+*	Version: 1.8.0
+*	Author: Kaska
+*	Author URL: https://github.com/batmanwgd
+*	Copyright © Awestomates by Kaska. All Rights Reserved.
+*/
+
+/* SETTINGS FOR LOGO 
+	- Homepage Logo vs Inner Pages
+*/
+
+body > div.container-page > header > div > div > div.col-xs-4.col-sm-4.col-md-4.col-lg-4 > div > a > img {
+    display: none;
+}
+
+.section.hero-started .info-list ul li .num {
+    width: 72%;
+}
+
+.lui-bgtitle {
+    font-size: 230px;
+}

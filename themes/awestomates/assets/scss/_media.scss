@@ -1,0 +1,142 @@
+/*
+*	Awestomates - An awesome place for new ostomates
+*	Version: 1.8.0
+*	Author: Kaska
+*	Author URL: https://github.com/batmanwgd
+*	Copyright © Awestomates by Kaska. All Rights Reserved.
+*/
+
+@media screen and (max-width: 1150px) {
+    .section.hero-started .title {
+        font-size: 60px;
+    }
+
+    .section.hero-started .slide img, .section.hero-started .slide .circle.circle-1 {
+        left: 10vw;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .section.hero-started .title {
+        font-size: 46px;
+    }
+
+    .section.hero-started .slide img, .section.hero-started .slide .circle.circle-1 {
+        left: 14vw;
+        top: 43vh;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    #typed-txt {
+        display: block;
+        min-height: 170px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 950px) {
+    .section.hero-started .content {
+        padding-top: 80px;
+    }
+    .section.hero-started .title {
+        font-size: 48px;
+    }
+
+    .section.hero-started .slide img, .section.hero-started .slide .circle.circle-1 {
+        left: 6vw;
+        top: 11vh;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    #typed-txt {
+        display: block;
+        min-height: 170px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1150px) {
+    .section.hero-started .content {
+        padding-top: 80px;
+    }
+    .section.hero-started .title {
+        font-size: 54px;
+    }
+
+    .section.hero-started .slide img, .section.hero-started .slide .circle.circle-1 {
+        left: 14.5vw;
+        top: 11vh;
+        width: 100%;
+        max-width: 525px;
+    }
+
+    #typed-txt {
+        display: block;
+        min-height: 170px;
+    }
+
+    .section.hero-started .info-list {
+        top: 440px;
+    }
+}
+
+@media screen and (min-width: 1160px) and (max-width: 1300px) {
+    .section.hero-started .content {
+        padding-top: 0px;
+    }
+    .section.hero-started .title {
+        font-size: 70px;
+    }
+
+    .section.hero-started .slide img, .section.hero-started .slide .circle.circle-1 {
+        left: 6.5vw;
+        top: 11vh;
+        width: 100%;
+        max-width: 605px;
+    }
+
+    #typed-txt {
+        display: block;
+        min-height: 170px;
+    }
+
+    .section.hero-started .info-list {
+        top: 425px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+
+    .lui-section-hero {
+        padding-bottom: 40px;
+
+    }
+    .section.hero-started .content {
+        padding-top: 0px;
+    }
+    .section.hero-started .title {
+        font-size: 70px;
+    }
+
+    .section.hero-started .slide img, .section.hero-started .slide .circle.circle-1 {
+        left: 6.5vw;
+        top: 11vh;
+        width: 100%;
+        max-width: 605px;
+    }
+
+    #typed-txt {
+        display: block;
+        min-height: 170px;
+    }
+
+    .section.hero-started .info-list {
+        top: 425px;
+        left: -15px;
+    }
+
+    .lui-section-hero .container .lui-started .lui-bgtitle {
+        top: 80px;
+    }
+}
