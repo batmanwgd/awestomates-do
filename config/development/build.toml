@@ -1,0 +1,31 @@
+# For development.
+
+# Build Settings
+# [build]
+#   writeStats = true
+
+## prevents your custom theme configuration files from being re-written
+### https://lyoneel.dev/hugo-esbuild-jsconfig-json-is-overridden-on-ever-server-start/
+noJSConfigInAssets = true
+useResourceCacheWhen = "fallback"
+## writes the hugo_stats.json file used for CSS pruning.
+writeStats = true
+
+## This is needed for Tawilwind to work and needs Hugo >= 0.112.0 to work.
+[buildStats]
+    disableClasses = false
+    disableIDs = false
+    disableTags = false
+    enable = true
+[[cachebusters]]
+    source = "assets/watching/hugo_stats\\.json"
+    target = "styles\\.css"
+[[cachebusters]]
+    source = "(postcss|tailwind)\\.config\\.js"
+    target = "css"
+[[cachebusters]]
+    source = "assets/.*\\.(js|ts|jsx|tsx)"
+    target = "js"
+[[cachebusters]]
+    source = "assets/.*\\.(.*)$"
+    target = "$1"

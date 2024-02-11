@@ -1,0 +1,10 @@
+# root key [permalinks] removed per hugo docs
+
+[page]
+  posts = '/articles/:year/:month/:slug/'
+  tutorials = '/training/:slug/'
+[section]
+  posts = '/articles/'
+  tutorials = '/training/'
+[term]
+  tags = '/:slug/'

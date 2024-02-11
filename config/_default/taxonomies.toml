@@ -1,0 +1,4 @@
+# Taxonomy Settings, removed root key [taxonomies]
+category = "categories"
+contributor = "contributors"
+tag = "tags"

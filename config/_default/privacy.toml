@@ -1,0 +1,18 @@
+# root key [privacy] removed per hugo docs
+
+[vimeo]
+  disabled = false
+  simple = true
+
+[twitter]
+  disabled = false
+  enableDNT = true
+  simple = true
+
+[instagram]
+  disabled = false
+  simple = true
+
+[youtube]
+  disabled = false
+  privacyEnhanced = true

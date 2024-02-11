@@ -1,0 +1,10 @@
+# root key [outputformats] removed per hugo docs
+
+# add output format for section sitemap.xml
+[SITEMAP]
+  mediaType = "application/xml"
+  baseName = "sitemap"
+  isHTML = false
+  isPlainText = true
+  noUgly = true
+  rel  = "sitemap"

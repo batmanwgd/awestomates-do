@@ -1,0 +1,15 @@
+# root key [permalinks] removed per hugo docs
+
+## examples of the root settings
+## https://gohugo.io/content-management/image-processing/#image-processing-options
+#  bgColor = '#ffffff'
+#  hint = 'photo'
+#  quality = 75
+#  resampleFilter = 'box'
+
+[imaging.exif]
+  disableDate = false
+  disableLatLong = false
+  excludeFields = ''
+  includeFields = ''
+

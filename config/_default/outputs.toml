@@ -1,0 +1,3 @@
+# root key [outputs] removed per hugo docs
+# home = ["HTML", "RSS", "REDIRECTS", "HEADERS", "JSON"]
+# section = ["HTML", "RSS", "SITEMAP", "JSON"]

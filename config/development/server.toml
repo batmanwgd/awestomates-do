@@ -1,0 +1,36 @@
+[[headers]]
+# for = "/*"
+  for = "/**"
+  [headers.values]
+    Content-Security-Policy = "script-src localhost:1313 'self' *.googletagmanager.com *.adobedtm.com *.trustarc.com *.weglot.com *.disqus.com 'unsafe-eval' 'unsafe-inline'"
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
+[[headers]]
+  for = "/**.{css,jpg,js}"
+  [headers.values]
+    Cache-Control = "public, max-age=2"
+
+[[redirects]]
+  force = false
+  from = "/docs/blog/**"
+  status = 200
+  to = "/docs/sections/"
+
+[[redirects]]
+  from = "/docs/marketplace/**"
+  status = 200
+  to = "/docs/sections/"
+
+[[redirects]]
+  from = "/docs/resources/**"
+  status = 200
+  to = "/docs/sections/"
+
+[[redirects]]
+  from = '/**'
+  status = 404
+  to = '/404.html'
+

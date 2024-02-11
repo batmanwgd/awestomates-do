@@ -1,0 +1,21 @@
+# For production.
+
+# Build Settings
+# [build]
+#   writeStats = true
+
+## prevents your custom theme configuration files from being re-written
+### https://lyoneel.dev/hugo-esbuild-jsconfig-json-is-overridden-on-ever-server-start/
+noJSConfigInAssets = false
+### When to use the cached resources in /resources/_gen for PostCSS and ToCSS. Valid values are never, always and fallback. The last value means that the cache will be tried if PostCSS/extended version is not available.
+useResourceCacheWhen = "never"
+## writes the hugo_stats.json file used for CSS pruning.
+writeStats = true
+
+### When enabled, creates a hugo_stats.json file in the root of your project. This file contains arrays of the class attributes, id attributes, and tags of every HTML element within your published site. Use this file as data source when removing unused CSS from your site. This process is also known as pruning, purging, or tree shaking.
+
+[buildStats]
+    disableClasses = false
+    disableIDs = false
+    disableTags = false
+    enable = true

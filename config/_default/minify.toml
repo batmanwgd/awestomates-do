@@ -1,0 +1,33 @@
+# Minify Settings
+# root key [caches] removed per hugo docs
+disableCSS = true
+disableHTML = false
+disableJS = false
+disableJSON = false
+disableSVG = false
+disableXML = false
+minifyOutput = false
+[tdewolff]
+  [tdewolff.css]
+    keepCSS2 = true
+    precision = 0
+  [tdewolff.html]
+    keepComments = false
+    keepConditionalComments = true
+    keepDefaultAttrVals = true
+    keepDocumentTags = true
+    keepEndTags = true
+    keepQuotes = false
+    keepWhitespace = false
+  [tdewolff.js]
+    keepVarNames = false
+    precision = 0
+    version = 2022
+  [tdewolff.json]
+    keepNumbers = false
+    precision = 0
+  [tdewolff.svg]
+    keepComments = false
+    precision = 0
+  [tdewolff.xml]
+    keepWhitespace = false

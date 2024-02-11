@@ -1,0 +1,11 @@
+# Menu Settings
+[[main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+[[main]]
+  identifier = "getting-started"
+  name = "Getting Started"
+  url = "#getting-started"
+  weight = 0

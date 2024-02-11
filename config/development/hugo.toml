@@ -1,0 +1,72 @@
+## NOTE: you have to do all your non-hierarchical stuff before you get to hierarchies.
+## YAML doesn’t care about that, but TOML absolutely does.
+
+# Baseline Settings
+theme = "awestomates"
+baseURL= "/"
+title = "Awestomates - An awesome place for new ostomies."
+author = "Kaska Miskolczi"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# Funsies
+enableEmoji = true
+enableGitInfo = true
+enableInlineShortcodes = true
+
+# URL Behaviours
+canonifyURLs = false
+relativeURLs = true
+uglyURLs = false
+pluralizeListTitles = true
+preserveTaxonomyNames = false
+
+# Finding the Right Paths
+contentDir = "content"
+dataDir = "data"
+layoutDir = "layouts"
+resourceDir = "resources"
+source = ""
+staticDir = "static"
+
+# Automations and Type-castings
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+hasCJKLanguage = true
+
+# Referencing
+footnoteAnchorPrefix = ""
+footnoteReturnLinkContents = '↩'
+
+# Arrays of Display Customizations
+defaultExtensions = "html"
+defaultLayout = "post"
+disableAliases = false
+disableHugoGeneratorInject = true
+paginate = 6
+summaryLength = 20
+timeout = "150s" # for the sake of newly generated images and such; default is "30s"
+
+# Status of Content to Build
+buildDrafts = true
+buildExpired = true
+buildFuture = true
+
+# Things to Disable
+disableKinds = ["RSS"]
+disableLiveReload = false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+
+# Analytics
+#googleAnalytics = "(UA-\\d{6}-\\d|(G-\\w+)"
+metaDataFormat =  "toml"
+
+# Alt Config
+newContentEditor = ""
+noChmod = false
+
+# Graveyard
+# rssLimit = 12

@@ -1,0 +1,11 @@
+# root key [security] removed per hugo docs
+enableInlineShortcodes = true
+  [exec]
+    allow = [ "^asciidoctor", "^pandoc" ]
+    osEnv = [ ".*" ]
+  [funcs]
+    getenv = [ "^INFINITEINKROOT$" ]
+
+  [http]
+    methods = [ "none" ]
+    urls = [ "none" ]
